@@ -1,11 +1,14 @@
 {
     "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "lib",
         "target": "es6",
+        "module": "commonjs",
         "alwaysStrict": true,
         "noEmitOnError": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "sourceMap": true,
+        "sourceMap": false,
         "declaration": true,
         "declarationDir": "types"
     }
