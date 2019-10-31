@@ -2,6 +2,7 @@
 .rpt2_cache
 node_modules
 dist
+dist.busb
 types
 docs
 npm-debug.log

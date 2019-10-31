@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "alwaysStrict": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "sourceMap": false,
+        "declaration": false,
+        "outDir": "./dist.busb/",
+        "types": ["node", "usb"],
+        "module": "commonjs"
+    }
+}
