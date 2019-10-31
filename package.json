@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "build": "rollup -c && typedoc src",
-    "watch": "rollup -c -w"
+    "watch": "rollup -c -w",
+    "build-busb": "tsc --build tsconfig.busb.json"
   },
   "engines": {
     "node": ">=8.14.0"
